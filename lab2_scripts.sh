@@ -18,3 +18,7 @@ grep -E "^303-[0-9]{3}-[0-9]{4}*" regex_practice.txt > "phone_results.txt"
 grep -E "^.*@geocities.com*$" regex_practice.txt > "email_results.txt"
 
 grep -E $1 $2 > "command_results.txt"
+
+git add phone_results.txt email_results.txt command_results.txt
+
+git commit -m "Default message"
